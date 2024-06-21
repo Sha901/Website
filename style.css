@@ -1,125 +1,196 @@
-.total-home{
-    background-color: #080808 ;
-    height: 100%;
-
+.total-home {
+  background-color: #080808;
+  height: 100%;
 }
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 .header {
-    background-color: #1B1B1B;
-
-    color: #9c9c9c;
-    height: 100%;
+  background-color: #1b1b1b;
+  color: #9c9c9c;
+  height: 100%;
 }
 
 .navbar {
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
 }
 
 .nav-items {
-    display: flex;
-    gap: 70px;
+  display: flex;
+  gap: 70px;
 }
 
 .nav-items li {
-    list-style: none;
-
+  list-style: none;
 }
 
 .nav-icons {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .nav-icons li {
-    list-style:none;
+  list-style: none;
 }
 
-
-
-
-
-
-
-
-
-
-li{
-    display: inline;
+.navigation-bar {
+  border: 20px;
+  width: 1280px;
+  height: 70px;
+  /* background-color: #1B1B1B; */
+  margin-left: 85px;
+  border-radius: 5px !important;
+  align-content: center;
 }
-.navigation-bar{
-    border: 20px;
-    width: 1280px;
-    height: 70px;
-    /* background-color: #1B1B1B; */
-    margin-left: 85px;
-    border-radius: 5px !important;
-    align-content: center;
-}
-.navibar{
-    display: flex;
-    top: 24px;
-    gap: 70px;
-    Width: 717px;
-    margin-left: 85px !important;
-    color: #fff;
-
-   
+.navibar {
+  display: flex;
+  top: 24px;
+  gap: 70px;
+  width: 717px;
+  margin-left: 85px !important;
+  color: #fff;
 }
 
-.home-3{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-
+.home-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
-.header-para{
-    align-content: center;
-    gap: 25px;
+.header-para {
+  align-content: center;
+  gap: 25px;
 }
-.image{
-    width: 350px ;
-    height: 350px;
-    border-radius: 350px;
+.image {
+  width: 350px;
+  height: 350px;
+  border-radius: 350px;
 }
-.header-one{
-    color: #fff;
+.header-one {
+  color: #fff;
+  font-size: 45px;
+  letter-spacing: 3px;
 }
-.Paragraph{
+.Paragraph {
+  font-size: medium;
+  letter-spacing: 2px;
+  line-height: 28.18px;
+  color: #9c9c9c;
+}
+.button {
+  width: 308px;
+  height: 63px;
+  background-color: #3f8e00;
+  color: #fff;
+  border-color: #62ba1b;
+  border-radius: 6px;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.worked-para {
+  width: 100%;
+  color: #fff;
+  margin-left: 310px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.clint-logo {
+  display: flex;
+  justify-content: center;
+}
+ 
+/* second page */
+.paragraph{
+    text-align: center;
+}
+.paragraph-solving{
     font-size: medium;
     letter-spacing: 2px;
     line-height: 28.18px;
     color: #9C9C9C;
 }
-.button{
-    width: 308px;
-    height: 63px;
-    background-color: #3F8E00;
-    color: #fff;
-    border-color: #62BA1B;
-    border-radius: 6px;
-    font-size: 15px;
-    letter-spacing: 3px;
+.header-color{
+    width: 72px;
+    height: 24px;
+    background-color:#FFF6E9;
+    border-radius: 30px;
+    text-align: center;
+    color: orange;
+    padding: 5px 0px 0px 0px;
+    
 }
-.worked-para{
-    width: 100%;
-    color: #fff;
-  margin-left: 310px;
-  font-size: 15px;
+.fintech-header{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.fintech-para {
+    font-size: medium;
     letter-spacing: 2px;
+    line-height: 28.19px;
+    color: #9C9C9C;
+}
+.image-ui{
+    border-radius: 6px;
+    width: 480px;
+    height: auto;
+}
+.button-background{
+    width: 189px;
+    height: 38px;
+    color: #FFF;
+    background-color: orange;
+    padding: 10px,24px,10px,24px;
+    border-radius: 5px;
 
 }
-.clint-logo{
-    display: flex;
-    justify-content: center;
+.header-color-Edtech{
+    width: 72px;
+    height: 24px;
+    color:#000Aff;
+    border-radius: 30px;
+    text-align: center;
+    background-color: skyblue;
+    padding: 5px 0px 0px 0px;
+}
+.EdTechpara{
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 28.19px;
+    color: #9C9C9C;
+}
+
+.button-background-EdTech{
+    width: 189px;
+    height: 38px;
+    color: #FFF;
+    background-color: #000AFF;
+    padding: 10px,24px,10px,24px;
+    border-radius: 5px;
+
+}
+.header-color-pharme{
+    width: 72px;
+    height: 24px;
+    color: #2AB090;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #E0FFF8;
+    padding: 5px 0px 0px 0px;
+
+}
+.button-background-Pharme{
+    width: 189px;
+    height: 38px;
+    color: #FFF;
+    background-color: #2AB090;
+    padding: 10px,24px,10px,24px;
+    border-radius: 5px;
 }

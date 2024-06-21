@@ -1,8 +1,58 @@
 .total-home{
-    background-color: #080808 !important;
-    height: 2500px;
+    background-color: #080808 ;
+    height: 100%;
 
 }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+
+.header {
+    background-color: #1B1B1B;
+
+    color: #9c9c9c;
+    height: 100%;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 70px;
+}
+
+.nav-items li {
+    list-style: none;
+
+}
+
+.nav-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-icons li {
+    list-style:none;
+}
+
+
+
+
+
+
+
+
+
+
 li{
     display: inline;
 }
@@ -10,7 +60,7 @@ li{
     border: 20px;
     width: 1280px;
     height: 70px;
-    background-color: #1B1B1B;
+    /* background-color: #1B1B1B; */
     margin-left: 85px;
     border-radius: 5px !important;
     align-content: center;
@@ -31,12 +81,11 @@ li{
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 15px;
 
 }
-.header{
+.header-para{
     align-content: center;
-    gap: 10px;
+    gap: 25px;
 }
 .image{
     width: 350px ;
@@ -47,7 +96,10 @@ li{
     color: #fff;
 }
 .Paragraph{
-    color: gray;
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 28.18px;
+    color: #9C9C9C;
 }
 .button{
     width: 308px;
@@ -56,4 +108,18 @@ li{
     color: #fff;
     border-color: #62BA1B;
     border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.worked-para{
+    width: 100%;
+    color: #fff;
+  margin-left: 310px;
+  font-size: 15px;
+    letter-spacing: 2px;
+
+}
+.clint-logo{
+    display: flex;
+    justify-content: center;
 }

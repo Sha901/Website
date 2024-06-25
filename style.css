@@ -157,9 +157,13 @@ padding-bottom: 30px;
  margin-right: 208px;
   margin-top: 70px;
   display: grid;
-  gap: 25px;
+  gap: 70px;
   padding-bottom: 30px;
 
+}
+.fint-space{
+  display: grid;
+ 
 }
 .paragraph{
     text-align: center;

@@ -12,7 +12,7 @@
   background-color: #1b1b1b;
   color: #9c9c9c;
   height: 100%;
-  margin-bottom: 80px;
+  
 }
 
 .navbar {
@@ -67,13 +67,20 @@
   margin-left: 85px !important;
   color: #fff;
 }
+.header-container{
+  margin-top: 80px;
+  padding-bottom: 45px;
+  margin-right: 180px;
+  margin-left: 180px;
+  
+}
 
 .header-text {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 57px;
+   padding-bottom: 57px;
 }
 .header-para {
   align-content: center;
@@ -114,26 +121,50 @@ padding-bottom: 30px;
  gap: 10px;
 
 }
+.clints-company{
+  gap:30px
+}
 .worked-para {
   width: 100%;
   color: #fff;
-  margin-left: 310px;
   font-size: 14px;
   line-height: 18.2px;
-  padding-bottom:38px;
+  text-align: justify;
+  padding-left: 146px;
+  padding-bottom: 20px;
 }
-.clint-logo {
+
+.logos{
+  flex-direction: row;
   display: flex;
+  align-items: center;
   justify-content: center;
-  
+  gap: 24px;
 }
-.clint-logo img{
-  padding-bottom: 45px;
+.logo-border {
+  width: 160px;
+  height: 60px;
+  border-style: solid;
+  border-color: #1b1b1b;
+  text-align: center;
+  align-content: center;
 }
  
 /* second page */
+
+.profile-case{
+ margin-left: 208px;
+ margin-right: 208px;
+  margin-top: 70px;
+  display: grid;
+  gap: 25px;
+  padding-bottom: 30px;
+
+}
 .paragraph{
     text-align: center;
+    gap: 20px;
+    display: grid;
 }
 .paragraph-solving{
     font-size: medium;

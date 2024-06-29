@@ -258,11 +258,101 @@ justify-content: center;
     border-radius: 5px;
 }
 /* third page */
+.container-testmonial{
+  background-color: #080808;;
+  padding-top:80px;
+  gap: 35px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+padding-bottom: 80px;
+}
+.head-testimonial{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color:#fff;
+}
+.subhead-testimonial{
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 39px;
+}
+.Testimonial-subtext{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: #9c9c9c;
+}
+.maincard-frame{
+  display: flex;
+  gap: 60px;
+
+}
+.mainborder-cards{
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.border-card{
+  width: 445px;
+  height: 212px;
+  border: 1px #484848 solid;
+  border-right: #1b1b1b ;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.border-subcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.card-subtext{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #9c9c9c;
+
+}
+.client-photo{
+  display: flex;
+ gap: 20px;
+  padding-right:156px ;
+}
+.clint-name{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.bracket-image{
+  position: absolute;
+  top: -9px;
+  left: 11px;
+}
+
+
+
+
+/* four page */
+
+
 .body-header-recent{
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   margin-top: 70px;
   margin-left: 208px;
   margin-right: 208px;
@@ -363,71 +453,5 @@ span{
 .image-vector-r img{
   color: #9c9c;
 }
-/* four page */
-.container-testmonial{
-  background-color: #080808;;
+ /* five page */
 
-}
-.head-testimonial{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  color:#fff;
-}
-.subhead-testimonial{
-  font-weight: 800;
-  font-size: 25px;
-  line-height: 39px;
-}
-.Testimonial-subtext{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1%;
-  color: #9c9c9c;
-}
-.border-card{
-  width: 445px;
-  height: 212px;
-  border: 1px #484848 solid;
-  position: relative;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.border-subcard{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 30px;
-}
-.card-subtext{
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1%;
-  color: #9c9c9c;
-
-}
-.client-photo{
-  display: flex;
- gap: 20px;
-  padding-right:116px ;
-}
-.clint-name{
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.13px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-}
-.bracket-image{
-  position: absolute;
-  top: -9px;
-  left: 11px;
-}

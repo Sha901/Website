@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 .home-container {
   background-color: #080808;
   height: 100%;
@@ -14,7 +19,11 @@
   height: 100%;
   
 }
-
+.nav-items li a{
+text-decoration: none;
+color: inherit;
+ 
+}
 .navbar {
   height: 70px;
   display: flex;
@@ -30,6 +39,8 @@
 
 .nav-items li {
   list-style: none;
+  cursor: pointer;
+
 }
 
 .nav-icons {
@@ -95,9 +106,10 @@
   color: #fff;
   font-size: 44px;
   letter-spacing: 3px;
-  font-weight: bold;
   Width : 426px;
 padding-bottom: 30px;
+font-family: raleway;
+font-weight: 800;
 }
 .intro-text {
   font-size: 14px;
@@ -105,8 +117,8 @@ padding-bottom: 30px;
   letter-spacing: 0.16px;
   line-height: 24px;
   color: #9c9c9c;
-  Width : 426px;
   padding-bottom: 30px;
+  font-family: IBM Plex Mono;
 }
 .button {
   width: 308px;
@@ -119,7 +131,7 @@ padding-bottom: 30px;
  padding: 21px 64px 21px 64px;
  border-radius: 4px;
  gap: 10px;
-
+ cursor: pointer;
 }
 .clints-company{
   gap:30px
@@ -154,7 +166,7 @@ padding-bottom: 30px;
 .profile-case{
  margin-left: 208px;
  margin-right: 208px;
-  margin-top: 70px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   gap: 70px;
@@ -162,16 +174,23 @@ padding-bottom: 30px;
 
 }
 
-.paragraph{
+.paragraph {
     text-align: center;
-    gap: 20px;
-    display: grid;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: 800;
 }
 .paragraph-solving{
-    font-size: medium;
-    letter-spacing: 2px;
-    line-height: 28.18px;
+    font-size: 14px;
+    letter-spacing: 1%;
+    line-height: 24px;
+    font-weight: 400;
     color: #9C9C9C;
+    font-family: IBM Plex Mono;
+    text-align: center;
 }
 .header-color{
     width: 72px;
@@ -189,10 +208,16 @@ justify-content: center;
 gap: 30px;
 }
 .fintech-para {
-    font-size: medium;
-    letter-spacing: 2px;
-    line-height: 28.19px;
+    
+    letter-spacing: 1%;
+    line-height: 24px;
     color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: IBM Plex Mono;
+}
+.fint-space{
+  font-family: raleway;;
 }
 .fint-space{
   display: flex;
@@ -212,7 +237,7 @@ justify-content: center;
     background-color: orange;
     padding: 10px,24px,10px,24px;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 .header-color-Edtech{
     width: 72px;
@@ -224,10 +249,12 @@ justify-content: center;
     padding: 5px 0px 0px 0px;
 }
 .EdTechpara{
-    font-size: medium;
-    letter-spacing: 2px;
-    line-height: 28.19px;
-    color: #9C9C9C;
+  letter-spacing: 1%;
+  line-height: 24px;
+  color: #9C9C9C;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: IBM Plex Mono;
 }
 
 .button-background-EdTech{
@@ -274,10 +301,11 @@ padding-bottom: 80px;
   gap: 20px;
   color:#fff;
 }
-.subhead-testimonial{
+.subhead-testimonial h1{
   font-weight: 800;
-  font-size: 25px;
+  font-size: 34px;
   line-height: 39px;
+  font-family: raleway;
 }
 .Testimonial-subtext{
   font-weight: 400;
@@ -285,6 +313,7 @@ padding-bottom: 80px;
   line-height: 24px;
   letter-spacing: 1%;
   color: #9c9c9c;
+  font-family: IBM Plex Mono;
 }
 .maincard-frame{
   display: flex;
@@ -315,11 +344,12 @@ padding-bottom: 80px;
   gap: 30px;
 }
 .card-subtext{
-  font-weight: 800;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 1px;
+  letter-spacing: 1%;
   color: #9c9c9c;
+  font-family: IBM Plex Mono;
 
 }
 .client-photo{
@@ -335,6 +365,7 @@ padding-bottom: 80px;
   flex-direction: column;
   justify-content: center;
   color: #fff;
+  font-family: IBM Plex Mono;
 }
 .bracket-image{
   position: absolute;
@@ -353,7 +384,7 @@ padding-bottom: 80px;
   flex-direction: column;
   gap: 40px;
   padding-bottom: 60px;
-  margin-top: 70px;
+ padding-top: 70px;
   margin-left: 208px;
   margin-right: 208px;
 }
@@ -366,6 +397,7 @@ padding-bottom: 80px;
 .header-recent{
   font-size: 30px;
   font-weight: 800px;
+  font-family: raleway;
 }
 .paragraph-business{
   font-size: 14px;
@@ -373,6 +405,7 @@ padding-bottom: 80px;
   line-height: 24px;
   font-weight: 400;
   color: #9c9c9c;
+  font-family: IBM Plex Mono;
 }
 .image-vector{
   padding: 10px,24px,10px,24px;
@@ -413,12 +446,15 @@ gap: 30px;
   font-size: 24px;
   line-height: 28.18px;
   font-weight: 800;
+  font-family: raleway;
 }
 .intro-text-labore{
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1%;
   font-weight: 400;
+  font-family: IBM Plex Mono;
+  color: #9C9C9C;
 }
 .button-know button{
   padding: 10px,24px,10px,24px;
@@ -475,13 +511,15 @@ gap: 40px;
   font-size: 25px; 
   line-height: 39.92px;
   text-align: center;
+  font-family: raleway;
 }
 .paragraph-dolor{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 1px;
+  letter-spacing: 1%;
   color:#9C9C9C;
+  font-family: IBM Plex Mono;
 }
 .main-inputbox{
   display: flex;
@@ -498,12 +536,14 @@ gap: 40px;
   font-weight: 600;
   font-size: 12px;
   line-height: 15.6px;
+  font-family: IBM Plex Mono;
 
 }
 .input-box input {
   width: 350px;
   height: 40px;
   border-radius: 6px;
+
 }
 
 .input-box-message input{
@@ -511,9 +551,7 @@ gap: 40px;
   height: 141px;
   border-radius: 6px;
 }
-::placeholder{
-  margin-top: 20px;
-}
+
 .button-submit button{
   background-color: #3F8E00;
   border: 1px solid #62BA1B;
@@ -524,6 +562,7 @@ gap: 40px;
   line-height: 18.2px;
   width: 350px;
   height: 50px;
+  cursor: pointer;
 }
 .made-with-love p{
   width: 100%;

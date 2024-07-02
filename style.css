@@ -264,6 +264,7 @@ justify-content: center;
     background-color: #000AFF;
     padding: 10px,24px,10px,24px;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 .header-color-pharme{
@@ -274,6 +275,7 @@ justify-content: center;
     text-align: center;
     background-color: #E0FFF8;
     padding: 5px 0px 0px 0px;
+   
 
 }
 .button-background-Pharme{
@@ -283,6 +285,7 @@ justify-content: center;
     background-color: #2AB090;
     padding: 10px,24px,10px,24px;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* third page */
 .container-testmonial{
@@ -540,16 +543,15 @@ gap: 40px;
 
 }
 .input-box input {
-  width: 350px;
+  width: 368px;
   height: 40px;
   border-radius: 6px;
-
+  padding: 5px 5px 5px 5px;
 }
 
-.input-box-message input{
-  width: 350px;
-  height: 141px;
+.input-box-message textarea{
   border-radius: 6px;
+  padding: 5px 5px 5px 5px;
 }
 
 .button-submit button{
